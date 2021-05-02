@@ -9,7 +9,7 @@ function ContactPage(props){
             <Hero title={props.title}/>
             <Content>
             Untuk menghubungi Saya, silahkan kirimkan email ke 
-            <a href="mailto:fariv.fariv12@gmail.com"> <strong> fariv.fariv12@gmail.com </strong> </a> 
+            <a className="a-mail" href="mailto:fariv.fariv12@gmail.com"> <strong> fariv.fariv12@gmail.com </strong> </a> 
             </Content>
         </div>
     )
