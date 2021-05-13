@@ -16,6 +16,21 @@ code {
   margin: 20px;
 }
 
+.g-card-rounded{
+  position:static;
+  width: 300px;
+  height: 225px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.text-indent{
+font-size: 1.15rem;
+padding: 10px;
+margin: 10px;
+}
+
 .g-card-image{
   border-radius: 10px;
   width: 300px;
@@ -38,5 +53,5 @@ code {
   margin: 0px;
 }
 .a-mail{
-  color: #4d4dff;
+  color: #5183F5;
 }

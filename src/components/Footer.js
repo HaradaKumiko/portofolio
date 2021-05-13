@@ -6,12 +6,8 @@ function Footer(){
         <footer className="mt-5">
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12} >
-                        Farhan Rivaldy
-                    </Col>
-
-                    <Col className="p-0 d-flex justify-content-end" md={3} >
-                        This site was made with &hearts;
+                    <Col className="p-0 d-flex justify-content-end" md={12} sm={6}>
+                        This site was made with &hearts; by  Farhan Rivaldy
                     </Col>
 
                 </Row>

@@ -32,7 +32,7 @@ function App(){
   })
 
   const [about] = useState({
-    title: 'About Farhan Rivaldy',
+    title: 'Tentang Farhan Rivaldy',
   })
 
   const [contact] = useState({
@@ -42,38 +42,13 @@ function App(){
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
 
-  // constructor(props){
-  //   super(props)
-  //   this.state = {
-  //     title: "Farhan Rivaldy",
-  //     headerLink: [
-  //       { title: 'Home', path: '/'},
-  //       { title: 'About', path: '/about'},
-  //       { title: 'Contact', path: '/contact'}
-  //     ],
-  //     home: {
-  //       title: 'Hi There!',
-  //       subtitle: 'Welcome To My Website',
-  //       text: 'Checkout My Projects'
-  //     },
-  //     about: {
-  //       title: 'About Farhan Rivaldy',
-  //     },
-  //     contact: {
-  //       title: 'Let\'s Talk!',
-  //     },
-
-
-  //   }
-  // }
-
     return (
       <ThemeProvider theme={themeMode}>
       <GlobalStyles />
       <BrowserRouter>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <NavbarBrand> <a href={title}> {title} </a> </NavbarBrand>
+            <NavbarBrand> <Link className="nav-link" to={headerLink.home.path}>{title}</Link> </NavbarBrand>
 
             <NavbarToggle className="border-0" aria-controls="navbar-toggle"/>
             <NavbarCollapse id="navbar-toggle">
@@ -81,7 +56,7 @@ function App(){
                   <Link className="nav-link" to={headerLink.home.path}>{headerLink.home.title}</Link>
                   <Link className="nav-link" to={headerLink.about.path}>{headerLink.about.title}</Link>
                   <Link className="nav-link" to={headerLink.contact.path}>{headerLink.contact.title}</Link>
-                  <Toggle theme={theme} toggleTheme={toggleTheme} />
+                  <Toggle className="nav-link" theme={theme} toggleTheme={toggleTheme} />
               </Navbar> 
             </NavbarCollapse>
           </Navbar>
