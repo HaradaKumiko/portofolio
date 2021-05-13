@@ -14,9 +14,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The content still static all I can be proud of is the dark and light theme, as I said above </p>
  <i> "In the future I promise i will improve this code" </i> <br>
 
-![Landing Page](https://github.com/HaradaKumiko/portofolio/blob/master/src/assets/images/screenshot/lightmode.png?raw=true)
+![Light Mode](https://github.com/HaradaKumiko/portofolio/blob/master/src/assetss/images/screenshot/lightmode.png?raw=true)
 
-![Landing Page](https://github.com/HaradaKumiko/portofolio/blob/master/src/assets/images/screenshot/darkmode.png?raw=true)
+![Dark Mode]https://github.com/HaradaKumiko/portofolio/blob/master/src/assetss/images/screenshot/darkmode.png?raw=true)
 
 ------------
 ## How To Run 
