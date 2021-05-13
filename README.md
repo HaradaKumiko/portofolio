@@ -16,7 +16,7 @@ The content still static all I can be proud of is the dark and light theme, as I
 
 ![Light Mode](https://github.com/HaradaKumiko/portofolio/blob/master/src/assetss/images/screenshot/lightmode.png?raw=true)
 
-![Dark Mode]https://github.com/HaradaKumiko/portofolio/blob/master/src/assetss/images/screenshot/darkmode.png?raw=true)
+![Dark Mode](https://github.com/HaradaKumiko/portofolio/blob/master/src/assetss/images/screenshot/darkmode.png?raw=true)
 
 ------------
 ## How To Run 
